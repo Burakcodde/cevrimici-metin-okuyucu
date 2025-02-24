@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Çevrimiçi Metin Okuyucu</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container mt-5">
+      <h1 class="text-center">Çevrimiçi Metin Okuyucu</h1>
+      <div class="form-group">
+        <label for="text-input">Metin Girin:</label>
+        <textarea class="form-control" id="text-input" rows="5"></textarea>
+      </div>
+      <div class="form-group">
+        <label for="voice-select">Ses Seçin:</label>
+        <select class="form-control" id="voice-select">
+          <option value="google">Google Cloud TTS</option>
+          <!-- Diğer ses seçenekleri buraya eklenebilir -->
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="rate">Okuma Hızı:</label>
+        <input
+          type="range"
+          class="form-control-range"
+          id="rate"
+          min="0.5"
+          max="2"
+          value="1"
+          step="0.1"
+        />
+      </div>
+      <button id="speak-button" class="btn btn-primary btn-block">Oku</button>
+      <button id="record-button" class="btn btn-secondary btn-block">
+        Kaydet
+      </button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/recorderjs/0.1.0/recorder.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
