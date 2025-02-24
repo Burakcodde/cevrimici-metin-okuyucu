@@ -9,7 +9,6 @@ Bu proje, kullanıcıların metinleri sesli olarak dinleyebilmeleri için taray�
 - Kullanıcı okuma hızını ayarlayabilir.
 - Okunan metni MP3 olarak kaydedebilir.
 - Farklı dillerde konuşma desteği eklenmiştir.
-- Kullanıcı kendi sesini kaydedip kullanabilir.
 - AI destekli daha doğal ses sentezi (Google Cloud TTS).
 
 ## Gereksinimler
@@ -29,7 +28,6 @@ Bu proje, kullanıcıların metinleri sesli olarak dinleyebilmeleri için taray�
 2. Ses seçeneğini ve okuma hızını ayarlayın.
 3. "Oku" butonuna tıklayarak metni sesli olarak dinleyin.
 4. "Kaydet" butonuna tıklayarak okunan metni MP3 olarak kaydedin.
-5. "Kendi Sesini Kaydet" butonuna tıklayarak kendi sesinizi kaydedin ve "Kaydı Durdur" butonuna tıklayarak kaydı durdurun. Kendi sesinizi ses seçenekleri arasına ekleyin ve kullanın.
 
 ## Katkıda Bulunma
 
